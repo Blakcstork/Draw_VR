@@ -62,6 +62,7 @@
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\HandsActiveChecker.cs" />
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarSkinnedMeshRenderPBSV2Component.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughBrush.cs" />
+    <Compile Include="Assets\Nokobot\Modern Guns - Handgun\_Demo Assets\SimpleShoot.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughController.cs" />
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatar.cs" />
     <Compile Include="Assets\Oculus\Avatar\Scripts\OvrAvatarMaterialManager.cs" />
@@ -197,7 +198,22 @@
     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportAimHandlerLaser.cs" />
     <Compile Include="Assets\Oculus\Avatar\Samples\SocialStarter\Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrackSegment.cs" />
-    <Compile Include="Assets\Nokobot\Modern Guns - Handgun\_Demo Assets\SimpleShoot.cs" />
+    <Compile Include="Assets\Revolver Kit VR\Scripts\SVParticleEffect.cs" />
+    <Compile Include="Assets\Revolver Kit VR\Scripts\SVDestroyAfterTime.cs" />
+    <Compile Include="Assets\Revolver Kit VR\Scripts\SVGrabbable.cs" />
+    <Compile Include="Assets\Revolver Kit VR\Scripts\SVSoundEffect.cs" />
+    <Compile Include="Assets\Revolver Kit VR\Scripts\SVLinearAcceleration.cs" />
+    <Compile Include="Assets\Revolver Kit VR\Scripts\SVBullet.cs" />
+    <Compile Include="Assets\Revolver Kit VR\Scripts\SVImpactSound.cs" />
+    <Compile Include="Assets\Revolver Kit VR\Demo\Scripts\SVTargetDemo.cs" />
+    <Compile Include="Assets\Revolver Kit VR\Scripts\SVRevolvingBarrel.cs" />
+    <Compile Include="Assets\Revolver Kit VR\Scripts\SVShootable.cs" />
+    <Compile Include="Assets\Revolver Kit VR\Scripts\SVRotator.cs" />
+    <Compile Include="Assets\Revolver Kit VR\Scripts\SVOutline.cs" />
+    <Compile Include="Assets\Revolver Kit VR\Scripts\SVControllerInput.cs" />
+    <Compile Include="Assets\Revolver Kit VR\Scripts\SVFireBullet.cs" />
+    <Compile Include="Assets\Revolver Kit VR\Scripts\SVControllerManager.cs" />
+    <Compile Include="Assets\Revolver Kit VR\Scripts\SVRevolver.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
@@ -208,6 +224,7 @@
      <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_Loader.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\GradientSkybox.shader" />
+     <None Include="Assets\Revolver Kit VR\Shaders\SVOutlineShader.shader" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_SingleComponent.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\PassthroughLine.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\BackgroundColor.shader" />
@@ -230,6 +247,7 @@
      <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders\Hands_01.shader" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarPBRV2Simple.shader" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderSelfOccluding.shader" />
+     <None Include="Assets\Revolver Kit VR\Shaders\SVAlphaBlended.shader" />
      <None Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Shaders\OculusSampleAlphaHandOutline.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\GlowEffect.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainSmokeShader.shader" />
