@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Revolver Kit VR/Demo/Scenes/RiftDemo (Oculus SDK).unity
+- path: Assets/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

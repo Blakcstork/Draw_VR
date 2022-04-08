@@ -15,12 +15,12 @@ F:/2DPlatformer/Draw_VR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-3898
+1294
 Successfully changed project path to: F:/2DPlatformer/Draw_VR
 F:/2DPlatformer/Draw_VR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 83.76 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 1.73 ms.
+Refreshing native plugins compatible for Editor in 107.69 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 1.91 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path F:/2DPlatformer/Draw_VR/Assets
@@ -36,26 +36,26 @@ Initialize mono
 Mono path[0] = 'C:/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008695 seconds.
+Registered in 0.012688 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.03 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 84.02 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.116 seconds
+- Completed reload, in  4.903 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004166 seconds.
+Registered in 0.012708 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.16 ms.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
@@ -65,562 +65,266 @@ RoslynAnalysisRunner has terminated.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.65.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.488 seconds
+- Completed reload, in  2.180 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 1801 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.5 MB.
-System memory in use after: 93.6 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2230.
-Total: 2.635400 ms (FindLiveObjects: 0.261800 ms CreateObjectMapping: 0.054100 ms MarkObjects: 2.180000 ms  DeleteObjects: 0.138000 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879_specular_2048.tga
-  artifactKey: Guid(baa6ff99ad97c354b9e10635dbe6a6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879_specular_2048.tga using Guid(baa6ff99ad97c354b9e10635dbe6a6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0c93250e9c7f79e642b16068d2fd2c') in 0.146556 seconds
-  Import took 0.174332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000476 seconds.
-  path: Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879Shell_diffuse_128.tga
-  artifactKey: Guid(beafcdbad1525f04db076b024181e89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879Shell_diffuse_128.tga using Guid(beafcdbad1525f04db076b024181e89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0a10bea7f0bde4b3c5ab57f4dd5302') in 0.047873 seconds
-  Import took 0.095051 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879_normal_2048.tga
-  artifactKey: Guid(badc384d5b83f3d4daf1deb56942a730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879_normal_2048.tga using Guid(badc384d5b83f3d4daf1deb56942a730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df3fe67b14b88680e0d5a4686f60219') in 0.047415 seconds
-  Import took 0.068709 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879Shell_diffuse_256.tga
-  artifactKey: Guid(7a77e4f293b048d4aacb409d8d05e22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879Shell_diffuse_256.tga using Guid(7a77e4f293b048d4aacb409d8d05e22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eef2fe13a60f8415b3574247977ae93') in 0.011830 seconds
-  Import took 0.015708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879_ao_2048.tga
-  artifactKey: Guid(69d2813668628094cb8b8aa7fa58dcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879_ao_2048.tga using Guid(69d2813668628094cb8b8aa7fa58dcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da671d3d6f79d1b8268f2364a0ab99e') in 0.012758 seconds
-  Import took 0.060871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879_specular_1024.tga
-  artifactKey: Guid(86611a8bd59a4084497ce7b67bd94db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879_specular_1024.tga using Guid(86611a8bd59a4084497ce7b67bd94db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4015a7262f37c3453b4c7b61db441dcb') in 0.048647 seconds
-  Import took 0.053109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879_diffuse_2048.tga
-  artifactKey: Guid(6bc75ade02ae47046b459a1b93a515bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879_diffuse_2048.tga using Guid(6bc75ade02ae47046b459a1b93a515bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96241388379568535b8076752f42b024') in 0.012206 seconds
-  Import took 0.016803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879Shell_ao_128.tga
-  artifactKey: Guid(17cf0488ddd62da4685d1ca206a20c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879Shell_ao_128.tga using Guid(17cf0488ddd62da4685d1ca206a20c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b6a6ab6d8c4c4ea59858b9c446721e') in 0.024708 seconds
-  Import took 0.043708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879Shell_specular_256.tga
-  artifactKey: Guid(1ddfac3d10a44c24daa7a74087efcdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879Shell_specular_256.tga using Guid(1ddfac3d10a44c24daa7a74087efcdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa44437e4cd7cc079b2162fb70dbb4a4') in 0.011409 seconds
-  Import took 0.015754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879_diffuse_1024.tga
-  artifactKey: Guid(0a29acc293f08b445b24057cc991c942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879_diffuse_1024.tga using Guid(0a29acc293f08b445b24057cc991c942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74789dbec3947e920fc587ea044fa42') in 0.029058 seconds
-  Import took 0.050946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(47ed997e8a3e00947b15d0a172c31a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(47ed997e8a3e00947b15d0a172c31a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f3a05f455eb47ef4ab554e736cf0dd') in 0.003498 seconds
-  Import took 0.008189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879Shell_ao_256.tga
-  artifactKey: Guid(4f88867fa00125e4485c51acb225399d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879Shell_ao_256.tga using Guid(4f88867fa00125e4485c51acb225399d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1987de846bc0e9988ab386092ce1be93') in 0.009799 seconds
-  Import took 0.015078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879Shell_normal_128.tga
-  artifactKey: Guid(a41e1594b7587c242abe641ea480d733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879Shell_normal_128.tga using Guid(a41e1594b7587c242abe641ea480d733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993e781083d7a55d394b0134ba556c3d') in 0.034140 seconds
-  Import took 0.038646 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879_normal_1024.tga
-  artifactKey: Guid(5d2f58df7100ef149ae7d7563aa627fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879_normal_1024.tga using Guid(5d2f58df7100ef149ae7d7563aa627fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c8e0eef60990900896a78cd4bf7dea') in 0.033792 seconds
-  Import took 0.037760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879_ao_1024.tga
-  artifactKey: Guid(7e128ed400ac43f4bbc27a76e7113a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879_ao_1024.tga using Guid(7e128ed400ac43f4bbc27a76e7113a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485cb2e23557a3ce535e919c9129ea51') in 0.037252 seconds
-  Import took 0.079754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879Shell_normal_256.tga
-  artifactKey: Guid(99d7f0d02983d6e49964e7477282b87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879Shell_normal_256.tga using Guid(99d7f0d02983d6e49964e7477282b87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe16b094177d93a92abf36f5fb14d22d') in 0.010249 seconds
-  Import took 0.026419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879Shell_specular_128.tga
-  artifactKey: Guid(ba9e5c10a3a00aa4896fe062c5eebfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reichsrevolver_M1879/Textures/ReichsrevolverM1879Shell_specular_128.tga using Guid(ba9e5c10a3a00aa4896fe062c5eebfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929ee3295f016810f12becae8cce4319') in 0.035179 seconds
-  Import took 0.039293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6379.076345 seconds.
-  path: Assets/Reichsrevolver_M1879/Scenes/DemoScene.unity
-  artifactKey: Guid(3f2c8ffa636ced74880ebaca270223d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reichsrevolver_M1879/Scenes/DemoScene.unity using Guid(3f2c8ffa636ced74880ebaca270223d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e97ddb16e6b595c7c59fb2261e75258') in 0.026900 seconds
-  Import took 0.129243 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006445 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.936 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.61 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 1733 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.1 MB.
-System memory in use after: 92.2 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2239.
-Total: 5.548900 ms (FindLiveObjects: 1.030300 ms CreateObjectMapping: 0.407400 ms MarkObjects: 3.862900 ms  DeleteObjects: 0.244100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 240.416705 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Textures/45ACP_Bullet_Albedo_Silver.png
-  artifactKey: Guid(eff506c84ac90d34c81e139f3e96a2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Textures/45ACP_Bullet_Albedo_Silver.png using Guid(eff506c84ac90d34c81e139f3e96a2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c362d27bf995e0d98826b5a68dcde23f') in 0.309407 seconds
-  Import took 0.375221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Albedo_Steel.png
-  artifactKey: Guid(7474c63c5c65b1b4fa45a47bd1bf528f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Albedo_Steel.png using Guid(7474c63c5c65b1b4fa45a47bd1bf528f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16603da1e3b57a641a25208de414148a') in 0.144639 seconds
-  Import took 0.186271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Magazine_Normal.png
-  artifactKey: Guid(9700d9e5832c89944afd7ef24f4d919e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Magazine_Normal.png using Guid(9700d9e5832c89944afd7ef24f4d919e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1a389bb6f5bc29c78a737784e6f64e') in 0.048875 seconds
-  Import took 0.074155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000670 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Magazine_MetallicSmoothness.png
-  artifactKey: Guid(0b3650749f4c1b045bc33f08bb4f2f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Magazine_MetallicSmoothness.png using Guid(0b3650749f4c1b045bc33f08bb4f2f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf723951d40bad3c1f617bbaf804aa81') in 0.024425 seconds
-  Import took 0.033057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Magazine_Albedo_Steel.png
-  artifactKey: Guid(7714950642003ee488bdddb49dd229e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Magazine_Albedo_Steel.png using Guid(7714950642003ee488bdddb49dd229e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30b0e09564af6bb931da0e417a52d3a') in 0.063843 seconds
-  Import took 0.068628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_MetallicSmoothness.png
-  artifactKey: Guid(1ed6c1c5fa7989e4597a77c8148b0876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_MetallicSmoothness.png using Guid(1ed6c1c5fa7989e4597a77c8148b0876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5d77a056203be3fd8ebc5e8386d3c3') in 0.021688 seconds
-  Import took 0.026523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Magazine_Albedo_Black.png
-  artifactKey: Guid(c11766a3d3e2f124eb11ea77d2d2fd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Magazine_Albedo_Black.png using Guid(c11766a3d3e2f124eb11ea77d2d2fd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b2bbbf5c54a98d9d6b8f77000379b7') in 0.014067 seconds
-  Import took 0.049289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Textures/45ACP_Bullet_Normal.png
-  artifactKey: Guid(df9023114d04044448b061e46927ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Textures/45ACP_Bullet_Normal.png using Guid(df9023114d04044448b061e46927ce9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a1bc6c33f1aec1ba0accde0968a471') in 0.048009 seconds
-  Import took 0.105267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Normal.png
-  artifactKey: Guid(476d8958242d6014fb5ae5916a7e9815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Normal.png using Guid(476d8958242d6014fb5ae5916a7e9815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914a98d561365813d43ffc89753de2c1') in 0.033625 seconds
-  Import took 0.037955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Magazine_Silver.prefab
-  artifactKey: Guid(b5c250cf857e87546bfae19a751f3c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Magazine_Silver.prefab using Guid(b5c250cf857e87546bfae19a751f3c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798f6844ae8e029a4303b143f2e2b4bc') in 0.174063 seconds
-  Import took 0.189181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Handgun_Silver (Shooting).prefab
-  artifactKey: Guid(37e98970f8baf7647b735d9036006f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Handgun_Silver (Shooting).prefab using Guid(37e98970f8baf7647b735d9036006f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbd35a7a2cf4ae4ea350c167f1ac42d') in 0.105532 seconds
-  Import took 0.142172 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Albedo_Black.png
-  artifactKey: Guid(d962094b1569b2a488f813051a429e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Textures/M1911_Handgun_Albedo_Black.png using Guid(d962094b1569b2a488f813051a429e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797a3ec7a69faf6b5b80999d87fc2e80') in 0.018014 seconds
-  Import took 0.022723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Handgun_Silver.prefab
-  artifactKey: Guid(5c59210965ffbcc4093fe99a29edb777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Handgun_Silver.prefab using Guid(5c59210965ffbcc4093fe99a29edb777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95863324e05988f1f1d362f6be8254aa') in 0.044322 seconds
-  Import took 0.052102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Magazine_Silver_Full.prefab
-  artifactKey: Guid(383b1a391f98da5478a7dddc283414a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Magazine_Silver_Full.prefab using Guid(383b1a391f98da5478a7dddc283414a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a33a2acb09f843a502c74faafd811b') in 0.058070 seconds
-  Import took 0.135677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.744152 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Demo Assets/Post Process Volume.asset
-  artifactKey: Guid(11c5769b733014f458c6c86a10e5613f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Demo Assets/Post Process Volume.asset using Guid(11c5769b733014f458c6c86a10e5613f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d94ce5dfd467b0511b1484a9425777') in 0.012033 seconds
-  Import took 0.053766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.801598 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/_Demo Assets/SimpleShoot.cs
-  artifactKey: Guid(6be84e4d7829855419c06b94e56bd135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/_Demo Assets/SimpleShoot.cs using Guid(6be84e4d7829855419c06b94e56bd135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2be91fad1ef8b5b44d8588a5d8897e6') in 0.033731 seconds
-  Import took 0.056514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4186.118806 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Animations/M1911 Handgun Controller.controller
-  artifactKey: Guid(03d1fe4e93c9d4445b3a611df2ee5713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Animations/M1911 Handgun Controller.controller using Guid(03d1fe4e93c9d4445b3a611df2ee5713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30372b51e5048dc9e548b1728ca9617') in 0.047366 seconds
-  Import took 0.106304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.093195 seconds.
-  path: Assets/Nokobot/Modern Guns - Handgun/Animations/M1911@Fire.anim
-  artifactKey: Guid(d34b4dd27ff9e5942b1871319d0f0db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nokobot/Modern Guns - Handgun/Animations/M1911@Fire.anim using Guid(d34b4dd27ff9e5942b1871319d0f0db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12456cc5b06d841200bdf82032269fb5') in 0.014193 seconds
-  Import took 0.076954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 128.622825 seconds.
-  path: Assets/Reichsrevolver_M1879/Animation/DistanceGrabHandLeft.controller
-  artifactKey: Guid(093ca9753dcbb574db44d5ec8423cdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reichsrevolver_M1879/Animation/DistanceGrabHandLeft.controller using Guid(093ca9753dcbb574db44d5ec8423cdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91396128f5b988d601fd91b787b6b333') in 0.071737 seconds
-  Import took 0.076858 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005008 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.726 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 1733 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.3 MB.
-System memory in use after: 92.4 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2249.
-Total: 4.539400 ms (FindLiveObjects: 0.364600 ms CreateObjectMapping: 0.087900 ms MarkObjects: 3.928300 ms  DeleteObjects: 0.155800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012490 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.389 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.41 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.8 MB.
-System memory in use after: 91.6 MB.
-
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2270.
-Total: 7.396200 ms (FindLiveObjects: 0.435300 ms CreateObjectMapping: 0.164400 ms MarkObjects: 6.389700 ms  DeleteObjects: 0.403300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 5428.437384 seconds.
-  path: Assets/Revolver Kit VR/Materials/bulletTrail.mat
-  artifactKey: Guid(a23dbdd9dd107414dbc26d62112e21bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Revolver Kit VR/Materials/bulletTrail.mat using Guid(a23dbdd9dd107414dbc26d62112e21bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5829583ab8318fff6a055ac62b9194eb') in 0.496214 seconds
-  Import took 0.503319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000647 seconds.
-  path: Assets/Revolver Kit VR/Materials/ShellMaterial.physicMaterial
-  artifactKey: Guid(3f0fa30e8901bf541a027bffc59cd98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Revolver Kit VR/Materials/ShellMaterial.physicMaterial using Guid(3f0fa30e8901bf541a027bffc59cd98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77dac6a403e97426e4bee545f864237') in 0.026737 seconds
-  Import took 0.056793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Revolver Kit VR/Materials/SVOutlineMaterial.mat
-  artifactKey: Guid(b66d835dd03b2ac42a0143fdccfc493e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Revolver Kit VR/Materials/SVOutlineMaterial.mat using Guid(b66d835dd03b2ac42a0143fdccfc493e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a9320cb21d36653cf7b5b22e8f3b28') in 0.210490 seconds
-  Import took 0.246715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Revolver Kit VR/Materials/MetalMaterial.physicMaterial
-  artifactKey: Guid(d0580927746761a43addbe1b31ad386e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Revolver Kit VR/Materials/MetalMaterial.physicMaterial using Guid(d0580927746761a43addbe1b31ad386e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fe32281cf6a8482f9b363ef5f6d5b4') in 0.006992 seconds
-  Import took 0.013405 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.092128 seconds.
-  path: Assets/Revolver Kit VR/Demo/Scenes
-  artifactKey: Guid(46b83f5910c6d334fb2280c281fe420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Revolver Kit VR/Demo/Scenes using Guid(46b83f5910c6d334fb2280c281fe420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8237cc546a2f668b47db47af967700ee') in 0.003048 seconds
-  Import took 0.008114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005979 seconds.
-  path: Assets/Revolver Kit VR/Demo/Scenes
-  artifactKey: Guid(46b83f5910c6d334fb2280c281fe420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Revolver Kit VR/Demo/Scenes using Guid(46b83f5910c6d334fb2280c281fe420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8237cc546a2f668b47db47af967700ee') in 0.003214 seconds
-  Import took 0.045289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.703226 seconds.
-  path: Assets/Revolver Kit VR/Demo/Scripts/SVTargetDemo.cs
-  artifactKey: Guid(e3fbb1efbee33d14db4f9fdd591a5c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Revolver Kit VR/Demo/Scripts/SVTargetDemo.cs using Guid(e3fbb1efbee33d14db4f9fdd591a5c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c3861eb3535ad6087de4c25d470011') in 0.004723 seconds
-  Import took 0.010557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008514 seconds.
-  path: Assets/Revolver Kit VR/Demo/Scripts/SVTargetDemo.cs
-  artifactKey: Guid(e3fbb1efbee33d14db4f9fdd591a5c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Revolver Kit VR/Demo/Scripts/SVTargetDemo.cs using Guid(e3fbb1efbee33d14db4f9fdd591a5c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c3861eb3535ad6087de4c25d470011') in 0.009160 seconds
-  Import took 0.014950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.410535 seconds.
-  path: Assets/Revolver Kit VR/Demo/Scenes/RiftDemo (SteamVR).unity
-  artifactKey: Guid(2ba4324d6a5c9a949991b6b33bac074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Revolver Kit VR/Demo/Scenes/RiftDemo (SteamVR).unity using Guid(2ba4324d6a5c9a949991b6b33bac074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3584c9b69e6a9003585b476b9d89f3') in 0.007154 seconds
-  Import took 0.022380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.862408 seconds.
-  path: Assets/Revolver Kit VR/Demo/Scenes/ViveDemo (SteamVR).unity
-  artifactKey: Guid(7ce8cc8fb5bac7544be84a0272fd5171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Revolver Kit VR/Demo/Scenes/ViveDemo (SteamVR).unity using Guid(7ce8cc8fb5bac7544be84a0272fd5171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26aaf0e4f22769649601e9253cd96486') in 0.004173 seconds
-  Import took 0.008619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.477334 seconds.
-  path: Assets/Revolver Kit VR/Demo/Scenes/RiftDemo (Oculus SDK).unity
-  artifactKey: Guid(85d7631e35a58be4cbae4fcbac1f2fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Revolver Kit VR/Demo/Scenes/RiftDemo (Oculus SDK).unity using Guid(85d7631e35a58be4cbae4fcbac1f2fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73dd03982fa154954007b9c4fc552ea') in 0.007588 seconds
-  Import took 0.015429 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007595 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.227 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.4 MB.
-System memory in use after: 92.5 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2309.
-Total: 4.377200 ms (FindLiveObjects: 0.343700 ms CreateObjectMapping: 0.072500 ms MarkObjects: 3.825800 ms  DeleteObjects: 0.133800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 3424.404636 seconds.
-  path: Assets/Revolver Kit VR/Scripts/SVBullet.cs
-  artifactKey: Guid(dee840e60436cfd4aaecc711c4a62fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Revolver Kit VR/Scripts/SVBullet.cs using Guid(dee840e60436cfd4aaecc711c4a62fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed704eccdedbf43d333679bed5c259f8') in 0.009177 seconds
-  Import took 0.385531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.752295 seconds.
-  path: Assets/Revolver Kit VR/Scripts/SVControllerInput.cs
-  artifactKey: Guid(3e1fac497812cef48898a4cf14eb3c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Revolver Kit VR/Scripts/SVControllerInput.cs using Guid(3e1fac497812cef48898a4cf14eb3c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0887b411ae6c6e76120ac687ae15f334') in 0.005204 seconds
-  Import took 0.009649 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.203218 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
 Refreshing native plugins compatible for Editor in 2.06 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in 11.449 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.4 MB.
-System memory in use after: 92.5 MB.
+Preloading 1 native plugins for Editor in 0.30 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.6 MB.
+System memory in use after: 93.7 MB.
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2313.
-Total: 29.915700 ms (FindLiveObjects: 3.009900 ms CreateObjectMapping: 0.497300 ms MarkObjects: 20.828900 ms  DeleteObjects: 5.574100 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2250.
+Total: 3.134400 ms (FindLiveObjects: 0.341000 ms CreateObjectMapping: 0.076000 ms MarkObjects: 2.541100 ms  DeleteObjects: 0.174400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db55b8c53198ab6fa998804beb48adcf') in 0.021595 seconds
+  Import took 0.040931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(82ddd68418773c14fbdc79913aef721e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(82ddd68418773c14fbdc79913aef721e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ef17839351125cf871c788659a50e6') in 0.107271 seconds
+  Import took 0.164392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62708.871995 seconds.
+  path: Assets/Revolver Kit VR/Demo/Materials/1893255-vintage-target-painted-on-the-dirty-old-tissue.jpg
+  artifactKey: Guid(1a8dffb65688033488ae1497372e20e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Demo/Materials/1893255-vintage-target-painted-on-the-dirty-old-tissue.jpg using Guid(1a8dffb65688033488ae1497372e20e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b76af5dfe93644932e512f8df7eb859') in 0.615347 seconds
+  Import took 0.669062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Revolver Kit VR/Demo/Materials/stump.mat
+  artifactKey: Guid(a9fe1b92a74e71e4696d44e2767be7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Demo/Materials/stump.mat using Guid(a9fe1b92a74e71e4696d44e2767be7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423c72457c27d6b6aa668fee266706fc') in 0.678113 seconds
+  Import took 0.730564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Revolver Kit VR/Demo/Materials/grass.mat
+  artifactKey: Guid(8e21ce4cee89b8e41beda99782b938fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Demo/Materials/grass.mat using Guid(8e21ce4cee89b8e41beda99782b938fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591c96d2b0f08649dc9ff4060b8549b5') in 0.183745 seconds
+  Import took 0.260474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Revolver Kit VR/Demo/Materials/grass.png
+  artifactKey: Guid(2463222a5daed5f4797620fa8d24f660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Demo/Materials/grass.png using Guid(2463222a5daed5f4797620fa8d24f660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cc20503850e48e32ea06502b166eab') in 0.030197 seconds
+  Import took 0.034747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/Revolver Kit VR/Demo/Materials/stump.png
+  artifactKey: Guid(408eb3a737a79a5498e133ad77345c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Demo/Materials/stump.png using Guid(408eb3a737a79a5498e133ad77345c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6a26d6da41d927928c4f333ce7b3e3') in 0.030573 seconds
+  Import took 0.035069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Revolver Kit VR/Demo/Materials/Target.mat
+  artifactKey: Guid(cf62cfa661c82724abf14998835c06dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Demo/Materials/Target.mat using Guid(cf62cfa661c82724abf14998835c06dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1c5f4ca4e7a4cfbfb72894892feac3') in 0.178965 seconds
+  Import took 0.231685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002632 seconds.
+  path: Assets/Revolver Kit VR/Demo/Materials/Target.mat
+  artifactKey: Guid(cf62cfa661c82724abf14998835c06dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Demo/Materials/Target.mat using Guid(cf62cfa661c82724abf14998835c06dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1c5f4ca4e7a4cfbfb72894892feac3') in 0.016347 seconds
+  Import took 0.021136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.337129 seconds.
+  path: Assets/Revolver Kit VR/Scripts/SVGrabbable.cs
+  artifactKey: Guid(ea70cc933e4cfdd4f80e0c6ec6e4a0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Scripts/SVGrabbable.cs using Guid(ea70cc933e4cfdd4f80e0c6ec6e4a0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63a036a0d0cd38f0a833bbb08b8282e') in 0.044282 seconds
+  Import took 0.048241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20721.183743 seconds.
+  path: Assets/Revolver Kit VR/Materials
+  artifactKey: Guid(69f21e7f87d4eda4789f237597452486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Materials using Guid(69f21e7f87d4eda4789f237597452486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ac8877c65fa55a0c8af7dd79cd8968') in 0.006041 seconds
+  Import took 0.052800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.752884 seconds.
+  path: Assets/Revolver Kit VR/Materials
+  artifactKey: Guid(69f21e7f87d4eda4789f237597452486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Materials using Guid(69f21e7f87d4eda4789f237597452486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ac8877c65fa55a0c8af7dd79cd8968') in 0.003531 seconds
+  Import took 0.008055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3480.623832 seconds.
+  path: Assets/Scripts/RevGrabbable.cs
+  artifactKey: Guid(d4e0922c8b7f4be4589f8c9f59412949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RevGrabbable.cs using Guid(d4e0922c8b7f4be4589f8c9f59412949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199c544f5fd2401fcfd3b3b69273e3d0') in 0.010710 seconds
+  Import took 0.062069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001999 seconds.
+  path: Assets/Scripts/RevGrabbable.cs
+  artifactKey: Guid(d4e0922c8b7f4be4589f8c9f59412949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RevGrabbable.cs using Guid(d4e0922c8b7f4be4589f8c9f59412949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199c544f5fd2401fcfd3b3b69273e3d0') in 0.017415 seconds
+  Import took 0.044026 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.022876 seconds.
+Registered in 4.315927 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.337 seconds
+- Completed reload, in  1.782 seconds
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.68 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Unloading 1752 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.4 MB.
-System memory in use after: 92.5 MB.
+System memory in use before: 92.2 MB.
+System memory in use after: 92.3 MB.
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2317.
-Total: 4.175100 ms (FindLiveObjects: 0.506100 ms CreateObjectMapping: 0.160100 ms MarkObjects: 3.357300 ms  DeleteObjects: 0.149900 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2296.
+Total: 3.615400 ms (FindLiveObjects: 0.269300 ms CreateObjectMapping: 0.054700 ms MarkObjects: 3.118900 ms  DeleteObjects: 0.171000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 396.627668 seconds.
+  path: Assets/Revolver Kit VR/Prefabs/Revolver PBR.prefab
+  artifactKey: Guid(e679e4ff2c5e5bb4da027ab41ec2e685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Prefabs/Revolver PBR.prefab using Guid(e679e4ff2c5e5bb4da027ab41ec2e685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0c69ec7b9b6cc627b2c61b43038fb5') in 1.980502 seconds
+  Import took 1.987170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Revolver Kit VR/Prefabs/Revolver Rusty.prefab
+  artifactKey: Guid(23c02ba891af17c41976418e91ac66c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Prefabs/Revolver Rusty.prefab using Guid(23c02ba891af17c41976418e91ac66c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bd13d8a3d94b23fec4d57756557d5e') in 0.429339 seconds
+  Import took 0.448729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Revolver Kit VR/Prefabs/Revolver Specular.prefab
+  artifactKey: Guid(0016527aff1d95144ad9934a87a22768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Prefabs/Revolver Specular.prefab using Guid(0016527aff1d95144ad9934a87a22768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31bb72c6fd251bea92687638e46344be') in 0.112993 seconds
+  Import took 0.130379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.255945 seconds.
+  path: Assets/Revolver Kit VR/Scripts/SVSoundEffect.cs
+  artifactKey: Guid(6374f2b98ecb8c849882024d149deb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Scripts/SVSoundEffect.cs using Guid(6374f2b98ecb8c849882024d149deb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2afa08eb2b6d4363f419d41ec6c7b88') in 0.011654 seconds
+  Import took 0.021774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003927 seconds.
+  path: Assets/Revolver Kit VR/Scripts/SVSoundEffect.cs
+  artifactKey: Guid(6374f2b98ecb8c849882024d149deb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Scripts/SVSoundEffect.cs using Guid(6374f2b98ecb8c849882024d149deb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2afa08eb2b6d4363f419d41ec6c7b88') in 0.012590 seconds
+  Import took 0.020764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.731659 seconds.
+  path: Assets/Revolver Kit VR/Scripts/SVShootable.cs
+  artifactKey: Guid(68c8c356fad1df6459b066c987b932da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Scripts/SVShootable.cs using Guid(68c8c356fad1df6459b066c987b932da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5acf0f0ea7f64fcf7944800aec54cc0') in 0.005064 seconds
+  Import took 0.010533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.404820 seconds.
+  path: Assets/Revolver Kit VR/Scripts/SVRotator.cs
+  artifactKey: Guid(2cd6dd6c73b138d4bb98a619e491eb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Scripts/SVRotator.cs using Guid(2cd6dd6c73b138d4bb98a619e491eb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2a99c1efff13e6649b13e8191817e4') in 0.008535 seconds
+  Import took 0.013322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.898995 seconds.
+  path: Assets/Revolver Kit VR/Scripts/SVRevolvingBarrel.cs
+  artifactKey: Guid(bc374b8879a4a2a4fabf280d0b4f90ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Scripts/SVRevolvingBarrel.cs using Guid(bc374b8879a4a2a4fabf280d0b4f90ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8d9f61b8e2ca338ea3bd4254958b12') in 0.004837 seconds
+  Import took 0.010207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.797199 seconds.
+  path: Assets/Revolver Kit VR/Scripts/SVRevolver.cs
+  artifactKey: Guid(8d7aaeba48d3c6f48a1764e1ab74b76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Scripts/SVRevolver.cs using Guid(8d7aaeba48d3c6f48a1764e1ab74b76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8537e41ee7803db476bf5b08ca0e4d59') in 0.005519 seconds
+  Import took 0.010217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003386 seconds.
+  path: Assets/Revolver Kit VR/Scripts/SVRevolver.cs
+  artifactKey: Guid(8d7aaeba48d3c6f48a1764e1ab74b76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Scripts/SVRevolver.cs using Guid(8d7aaeba48d3c6f48a1764e1ab74b76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8537e41ee7803db476bf5b08ca0e4d59') in 0.037309 seconds
+  Import took 0.043225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.057377 seconds.
+  path: Assets/Revolver Kit VR/Scripts/SVParticleEffect.cs
+  artifactKey: Guid(49df4d251b804e747bc0da0f74f2f556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Scripts/SVParticleEffect.cs using Guid(49df4d251b804e747bc0da0f74f2f556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9c2a5f25bbdfa592ebacde434ef797') in 0.005077 seconds
+  Import took 0.010039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.077508 seconds.
+  path: Assets/Revolver Kit VR/Scripts/SVOutline.cs
+  artifactKey: Guid(a7ee64d24f923334c99067f5dc77916e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Scripts/SVOutline.cs using Guid(a7ee64d24f923334c99067f5dc77916e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c09016049b9fc2a14b96cc660fa6957') in 0.004727 seconds
+  Import took 0.009567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 190.913737 seconds.
+  path: Assets/Revolver Kit VR/Scripts/SVImpactSound.cs
+  artifactKey: Guid(b9889e04d9737da42bfddb80ef8bb853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Scripts/SVImpactSound.cs using Guid(b9889e04d9737da42bfddb80ef8bb853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e5e68b7afbacf8644e3d85240a1f9c') in 0.004118 seconds
+  Import took 0.007991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002867 seconds.
+  path: Assets/Revolver Kit VR/Scripts/SVImpactSound.cs
+  artifactKey: Guid(b9889e04d9737da42bfddb80ef8bb853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Scripts/SVImpactSound.cs using Guid(b9889e04d9737da42bfddb80ef8bb853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e5e68b7afbacf8644e3d85240a1f9c') in 0.005377 seconds
+  Import took 0.011757 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
