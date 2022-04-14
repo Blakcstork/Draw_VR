@@ -15,12 +15,12 @@ F:/2DPlatformer/Draw_VR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-2232
+3866
 Successfully changed project path to: F:/2DPlatformer/Draw_VR
 F:/2DPlatformer/Draw_VR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 95.87 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 1.82 ms.
+Refreshing native plugins compatible for Editor in 2578.34 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 23.58 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path F:/2DPlatformer/Draw_VR/Assets
@@ -36,143 +36,23 @@ Initialize mono
 Mono path[0] = 'C:/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009273 seconds.
+Registered in 0.012743 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 62.67 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
+Refreshing native plugins compatible for Editor in 63.35 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.470 seconds
+- Completed reload, in  6.316 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004290 seconds.
+Registered in 0.069603 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-[XR] OculusXRPlugin: registering subsystems
-[XR] Unable to register display lifecyle provider: [1]
-[XR] Oculus Input lifecycle provider registered.
-[XR] Unable to register input lifecyle provider: [1]
-[XR] OVRP version 1.65.0
-Mono: successfully reloaded assembly
-- Completed reload, in  1.943 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 1827 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.9 MB.
-System memory in use after: 94.0 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2256.
-Total: 2.489500 ms (FindLiveObjects: 0.259500 ms CreateObjectMapping: 0.055000 ms MarkObjects: 2.025100 ms  DeleteObjects: 0.147900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/RevRevolvingBarrel.cs
-  artifactKey: Guid(b1102251cab192c4682e1128e9e93549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RevRevolvingBarrel.cs using Guid(b1102251cab192c4682e1128e9e93549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0868e2c34c5336a0934735ab44a831f8') in 0.067436 seconds
-  Import took 0.071494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 432.647846 seconds.
-  path: Assets/Scripts/RevShootable.cs
-  artifactKey: Guid(d289f65d8c13a5c48be8b7d99adc56d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RevShootable.cs using Guid(d289f65d8c13a5c48be8b7d99adc56d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26258d01efd23b3790f0d766f21f2932') in 0.006615 seconds
-  Import took 0.012448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 103.151784 seconds.
-  path: Assets/Scripts/RevShootable.cs
-  artifactKey: Guid(d289f65d8c13a5c48be8b7d99adc56d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RevShootable.cs using Guid(d289f65d8c13a5c48be8b7d99adc56d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd5fe51c7c9dcaf2eeb0171c2daf028') in 0.006172 seconds
-  Import took 0.010678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.317131 seconds.
-  path: Assets/Revolver Kit VR/Prefabs/3D/Materials/bullet_casing.005.mat
-  artifactKey: Guid(19767da6de5fad44082c49bd229d5861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Revolver Kit VR/Prefabs/3D/Materials/bullet_casing.005.mat using Guid(19767da6de5fad44082c49bd229d5861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a908d2cb4eab9b35881ae7fbc3f45b') in 0.176686 seconds
-  Import took 0.181431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/Revolver Kit VR/Prefabs/3D/Materials/gunMetalRustedPBR.mat
-  artifactKey: Guid(249b99e18442f574b89bad59dcb9aa65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Revolver Kit VR/Prefabs/3D/Materials/gunMetalRustedPBR.mat using Guid(249b99e18442f574b89bad59dcb9aa65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546b5f25b43ff5c37f4c81e506dfd7b5') in 0.397276 seconds
-  Import took 0.402278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000519 seconds.
-  path: Assets/Revolver Kit VR/Prefabs/3D/Materials/bullet_tip.005.mat
-  artifactKey: Guid(bc7f067b9abd5f142a43e62d06064886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Revolver Kit VR/Prefabs/3D/Materials/bullet_tip.005.mat using Guid(bc7f067b9abd5f142a43e62d06064886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5cbd7fe38e425ebff4f1190884af33') in 0.023982 seconds
-  Import took 0.029826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000432 seconds.
-  path: Assets/Revolver Kit VR/Prefabs/3D/Materials/handlePBR.mat
-  artifactKey: Guid(1fc5f5a22e6012149915501505965d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Revolver Kit VR/Prefabs/3D/Materials/handlePBR.mat using Guid(1fc5f5a22e6012149915501505965d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726d6a295e58616512e1f5b1a34258a9') in 0.044988 seconds
-  Import took 0.049468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Revolver Kit VR/Prefabs/3D/Materials/handle.mat
-  artifactKey: Guid(71081edd96e47cf4e80e988183f93d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Revolver Kit VR/Prefabs/3D/Materials/handle.mat using Guid(71081edd96e47cf4e80e988183f93d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6736463bda3c315f8d6ce93d3418264f') in 0.016370 seconds
-  Import took 0.023165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/Revolver Kit VR/Prefabs/3D/Materials/gunMetalPBR.mat
-  artifactKey: Guid(8fcacbc143fe85940835b45b5f571c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Revolver Kit VR/Prefabs/3D/Materials/gunMetalPBR.mat using Guid(8fcacbc143fe85940835b45b5f571c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba6772289dcf64321ca89fcd2ac732b') in 0.045668 seconds
-  Import took 0.051240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000490 seconds.
-  path: Assets/Revolver Kit VR/Prefabs/3D/Materials/defaultMat.mat
-  artifactKey: Guid(efb92931a7470ea44abea033711d38df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Revolver Kit VR/Prefabs/3D/Materials/defaultMat.mat using Guid(efb92931a7470ea44abea033711d38df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bbdc2a8b096e3eefe4cb74e8b1c6c6') in 0.017819 seconds
-  Import took 0.022686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Revolver Kit VR/Prefabs/3D/Materials/gunMetal.mat
-  artifactKey: Guid(c429ec3765c9efb4194761af1b096348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Revolver Kit VR/Prefabs/3D/Materials/gunMetal.mat using Guid(c429ec3765c9efb4194761af1b096348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902b130a00e36e045e696d029533281d') in 0.020811 seconds
-  Import took 0.025702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.928745 seconds.
-  path: Assets/Scripts/RevBullet.cs
-  artifactKey: Guid(35acda474bae06848b574d9702988e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RevBullet.cs using Guid(35acda474bae06848b574d9702988e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08174025d39b3453f9483da3ed10ba4f') in 0.005749 seconds
-  Import took 0.010750 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

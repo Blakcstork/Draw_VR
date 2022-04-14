@@ -18,14 +18,29 @@ public class RevShootable : MonoBehaviour
     {
         if(audioSource == null)
         {
-            if (!GetComponent<AudioSource>())
+            if (!GetComponent<AudioSource>()) //오디오 소스가 없으면
             {
-                audioSource = gameObject.AddComponent<AudioSource>();
+                audioSource = gameObject.AddComponent<AudioSource>(); //추가
             }
             else
             {
-                audioSource = gameObject.AddComponent<AudioSource>();
+                audioSource = gameObject.GetComponent<AudioSource>();
             }
+            audioSource.clip = bulletHitSoundEffect;
+        }
+
+        if (GetComponent<Rigidbody>())
+        {
+            Rigidbody rb = GetComponent<Rigidbody>();
+            Vector3 ImpactForce = bullet.bulletMass * Mathf.Pow(bullet.bulletVelocity, 2) * rayDirection; // E= mv^2
+            rb.AddForceAtPosition(ImpactForce, hit.point);
+        }
+
+        if(bulletHitSoundEffect != null)
+        {
+            audioSource.pitch = Random.Range(minPitch, maxPitch);
+            audioSource.volume = volume;
+            audioSource.Play();
         }
     }
     void Start()
