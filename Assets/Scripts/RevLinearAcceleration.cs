@@ -49,19 +49,53 @@ public class RevLinearAcceleration : MonoBehaviour
 
         if(positionSamplesTaken >= samples)
         {
+            // 평균 속도 변화값 측정
+            for(int i = 0; i < positionRegister.Length - 2; i++)
+            {
+                deltaDistance = positionRegister[i + 1] - positionRegister[i];
+                deltaTime = posTimeRegister[i + 1] - posTimeRegister[i];
 
+
+                //deltatime이 0이면 output은 invalid
+                if(deltaTime == 0)
+                {
+                    return Vector3.zero;
+                }
+
+                speedA = deltaDistance / deltaTime; // 속도 = 거리 / 시간
+                deltaDistance = positionRegister[i + 2] - positionRegister[i + 1];
+                deltaTime = posTimeRegister[i + 2] - posTimeRegister[i + 1]; // 시간, 거리 차이 갱신
+
+                if(deltaTime == 0)
+                {
+                    return Vector3.zero;
+                }
+
+                speedB = deltaDistance / deltaTime; // speedB 산출
+
+                averageSpeedChange += speedB - speedA;
+                averageVelocity += speedB;
+            }
+
+            // 평균 구하기
+            averageSpeedChange /= positionRegister.Length - 2;
+            averageVelocity /= positionRegister.Length - 2;
+
+
+            // 전체 시간 차이 구하기
+            float deltaTimeTotal = posTimeRegister[posTimeRegister.Length - 1] - posTimeRegister[0];
+
+
+            // 가속도 계산
+            vector = averageSpeedChange / deltaTimeTotal;
+
+            // Vector3 curVelocity = (speedA + speedB) / 2.0f;
+
+            return averageVelocity;
         }
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        else
+        {
+            return Vector3.zero;
+        }
     }
 }

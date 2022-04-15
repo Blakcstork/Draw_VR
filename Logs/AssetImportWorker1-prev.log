@@ -1,0 +1,210 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19042.1586; Version 2009; 64bit' Language: 'ko' Physical Memory: 24522 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\2020.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+F:/2DPlatformer/Draw_VR
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+3866
+Successfully changed project path to: F:/2DPlatformer/Draw_VR
+F:/2DPlatformer/Draw_VR
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 101.38 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.05 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path C:/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/2DPlatformer/Draw_VR/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.15.1215
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008511 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 73.21 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.501 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004826 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.65.0
+Mono: successfully reloaded assembly
+- Completed reload, in  1.897 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 1830 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2259.
+Total: 2.853000 ms (FindLiveObjects: 0.282000 ms CreateObjectMapping: 0.077700 ms MarkObjects: 2.335900 ms  DeleteObjects: 0.155300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/RevDestroyAfterTime.cs
+  artifactKey: Guid(045d9ccddfddc974a97f472fd82587d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RevDestroyAfterTime.cs using Guid(045d9ccddfddc974a97f472fd82587d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cf2d1dbce7a4e02f84909f1187a985') in 0.100036 seconds
+  Import took 0.104389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4623.814377 seconds.
+  path: Assets/Scripts/RevDestroyAfterTime.cs
+  artifactKey: Guid(045d9ccddfddc974a97f472fd82587d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RevDestroyAfterTime.cs using Guid(045d9ccddfddc974a97f472fd82587d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10efd4203e77d95e53cecaf1b3015ee') in 0.012805 seconds
+  Import took 0.098918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.601437 seconds.
+  path: Assets/Scripts/RevParticleEffect.cs
+  artifactKey: Guid(2bbadc09ced47ea4fa622c415a178852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RevParticleEffect.cs using Guid(2bbadc09ced47ea4fa622c415a178852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3166367cefb8ea553798972060b3b4e9') in 0.150536 seconds
+  Import took 0.160772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2878.878380 seconds.
+  path: Assets/Scripts/RevParticleEffect.cs
+  artifactKey: Guid(2bbadc09ced47ea4fa622c415a178852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RevParticleEffect.cs using Guid(2bbadc09ced47ea4fa622c415a178852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4096fed395df075a1a2e2dcc6eb3450') in 0.003652 seconds
+  Import took 0.008884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.662721 seconds.
+  path: Assets/Revolver Kit VR/Prefabs/Projectile/bullet.prefab
+  artifactKey: Guid(0349e5f440ec7234c928020441adc5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Prefabs/Projectile/bullet.prefab using Guid(0349e5f440ec7234c928020441adc5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513d05a3d05146fcde751b95ae745a81') in 0.496495 seconds
+  Import took 0.501249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000606 seconds.
+  path: Assets/Revolver Kit VR/Prefabs/Projectile/shell.prefab
+  artifactKey: Guid(a880ba4d1682c7644a5bf51c28dbd0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Prefabs/Projectile/shell.prefab using Guid(a880ba4d1682c7644a5bf51c28dbd0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff0193017bead7cf7ac2ea08d43efb8') in 0.019104 seconds
+  Import took 0.024609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.924918 seconds.
+  path: Assets/Revolver Kit VR/Sounds/dirt_hit.wav
+  artifactKey: Guid(d10507c715463304b94335b88bc9dac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Sounds/dirt_hit.wav using Guid(d10507c715463304b94335b88bc9dac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66c305aadcad24423ec4a1b885d54ed') in 0.181807 seconds
+  Import took 0.186976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Revolver Kit VR/Sounds/shell_hit.wav
+  artifactKey: Guid(fd578ffb1cd8a554c92315163f8b3529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Sounds/shell_hit.wav using Guid(fd578ffb1cd8a554c92315163f8b3529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66aba84a88e76507702994036a4eac03') in 0.031843 seconds
+  Import took 0.035828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Revolver Kit VR/Sounds/metal_hit.wav
+  artifactKey: Guid(8a286920f14e8ba4c89051782e499246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Sounds/metal_hit.wav using Guid(8a286920f14e8ba4c89051782e499246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5a115a397b2bbb761060e54b91d5cb') in 0.032000 seconds
+  Import took 0.037148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Revolver Kit VR/Sounds/revolver_open.wav
+  artifactKey: Guid(bb6139231e6f2ef4f94dc7bbd1b7daf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Sounds/revolver_open.wav using Guid(bb6139231e6f2ef4f94dc7bbd1b7daf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17273cf58a68cf1e238cdae4910b243') in 0.024434 seconds
+  Import took 0.029181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Revolver Kit VR/Sounds/pistol.wav
+  artifactKey: Guid(38918687893f74d41932133308b1d2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Sounds/pistol.wav using Guid(38918687893f74d41932133308b1d2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0420b4872039e4803987794afd851a6c') in 0.082273 seconds
+  Import took 0.087085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Revolver Kit VR/Sounds/dry_fire.wav
+  artifactKey: Guid(4baf81ed33d3d8b4895b21a516cfd022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Sounds/dry_fire.wav using Guid(4baf81ed33d3d8b4895b21a516cfd022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dceac5f903d57f5ad21ca28d853158cd') in 0.030774 seconds
+  Import took 0.036130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000961 seconds.
+  path: Assets/Revolver Kit VR/Sounds/revolver_click.wav
+  artifactKey: Guid(1420d7394388812489e126b0622aafed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Sounds/revolver_click.wav using Guid(1420d7394388812489e126b0622aafed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6e7843fa7e5c23198e69ff890794ce') in 0.027634 seconds
+  Import took 0.034897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001138 seconds.
+  path: Assets/Revolver Kit VR/Sounds/revolver_close.wav
+  artifactKey: Guid(b80e38c89cea5524ba2c08c3be8562b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Revolver Kit VR/Sounds/revolver_close.wav using Guid(b80e38c89cea5524ba2c08c3be8562b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc7c0a70fcdb8d8307d12d400cb1a71') in 0.048686 seconds
+  Import took 0.053043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.020655 seconds.
+  path: Assets/Scripts/RevLinearAcceleration.cs
+  artifactKey: Guid(7de33db80c621b44bba8211ca3069cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RevLinearAcceleration.cs using Guid(7de33db80c621b44bba8211ca3069cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da5115b61abdc606ce02bc8187ff151') in 0.030551 seconds
+  Import took 0.036914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20169.987934 seconds.
+  path: Assets/Scripts/RevLinearAcceleration.cs
+  artifactKey: Guid(7de33db80c621b44bba8211ca3069cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RevLinearAcceleration.cs using Guid(7de33db80c621b44bba8211ca3069cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c43c66d14878879c9abafc86919f67c') in 0.004151 seconds
+  Import took 0.009311 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
