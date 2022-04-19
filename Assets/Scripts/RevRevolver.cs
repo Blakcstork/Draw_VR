@@ -18,7 +18,7 @@ public class RevRevolver : MonoBehaviour
     [Header("Firing settings")]
     public GameObject bulletPrefab;
     public float muzzleVelocity = 200f;
-    public LayerMask shothitLayers = -1;
+    public LayerMask shotHitLayers = -1;
     public int maxBullets = 6;
     public float kickForce = 30;
     public int numberOfChambers = 6;
@@ -32,6 +32,7 @@ public class RevRevolver : MonoBehaviour
     public float barrelOpenSpeed = 1000f;
     public float minRotationSpeedForReloading = 200f;
     public float openDurationReloadNeeded = 3f;
+    public float openDurationReloadNotNeeded = 0.65f;
     public float minStayOpenDuration = 0.65f;
     public float shellEjectionForce = 1f;
 
@@ -52,7 +53,7 @@ public class RevRevolver : MonoBehaviour
     [Header("Sounds and FX")]
     public AudioClip revolverOpenClip;
     public AudioClip revolverClickClip;
-    public AudioClip revoloverCloseClip;
+    public AudioClip revolverCloseClip;
     public GameObject muzzleFlashPrefab;
     public GameObject dryFirePrefab;
 
@@ -123,7 +124,128 @@ public class RevRevolver : MonoBehaviour
                 return;
             gunAcceleration = this.transform.InverseTransformDirection(gunAcceleration);
             gunVelocity = this.transform.InverseTransformDirection(gunVelocity);
+            float openAcceleration = (this.curBullets == 0) ? input.openEmptyAccerlation : input.openAcceration;
+            bool isDecelerating = !Sign(gunAcceleration.x, gunVelocity.x);
+            bool controllerInRightHand = input.activeController == RevControllerType.RevController_Right;
+            if (isDecelerating)
+            {
+                if(Sign(gunAcceleration.x, (controllerInRightHand ? openAcceleration : -openAcceleration)) && Mathf.Abs(gunAcceleration.x) > Mathf.Abs(openAcceleration)){
+                    revolvingBarrel.OpenForReload(controllerInRightHand);
+                }
+                else if (Sign(gunAcceleration.x, (controllerInRightHand ? input.closeAcceleration : -input.closeAcceleration)) && Mathf.Abs(gunAcceleration.x) > Mathf.Abs(input.closeAcceleration))
+                {
+                    revolvingBarrel.CloseFromReload();
+                }
+            }
+
 
         }
+    }
+
+    private void Fire()
+    {
+        if(revolvingBarrel.isOpen || !grabComponent.inHand)
+        {
+            return;
+        }
+
+        if(curBullets > 0)
+        {
+            curBullets--;
+            fireBulletComponent.Fire();
+            grabComponent.EditGripForKick(kickForce);
+            input.RumbleActiveController(0.25f);
+            trigger.Rotate(1.0f);
+            hammer.Rotate(1.0f);
+            revolvingBarrel.Revolve();
+        }
+        else
+        {
+            fireBulletComponent.DryFire();
+            input.RumbleActiveController(0.05f);
+            trigger.Rotate(1.0f);
+            hammer.Rotate(1.0f);
+            revolvingBarrel.Revolve();
+        }
+    }
+
+    private void ToggleBarrel()
+    {
+        if (!grabComponent.inHand)
+            return;
+
+        if (revolvingBarrel.isOpen)
+        {
+            revolvingBarrel.CloseFromReload();
+        }
+        else
+        {
+            revolvingBarrel.OpenForReload(input.activeController == RevControllerType.RevController_Right);
+        }
+    }
+
+    public void Reload()
+    {
+        curBullets = maxBullets;
+    }
+
+    bool Sign(float a, float b)
+    {
+        return (a > 0 && b > 0 || a <= 0 && b <= 0);
+    }
+
+    void OnValidate()
+    {
+        if(this.grabComponent == null)
+        {
+            this.grabComponent = GetComponent<RevGrabbable>();
+        }
+
+        if(this.fireBulletComponent == null)
+        {
+            this.fireBulletComponent = GetComponent<RevFireBullet>();
+        }
+
+        SetupComponents();
+    }
+
+    private void SetupComponents()
+    {
+        /* Fire Bullet Component */
+        this.fireBulletComponent.bulletPrefab = this.bulletPrefab;
+        this.fireBulletComponent.muzzleFlashPrefab = this.muzzleFlashPrefab;
+        this.fireBulletComponent.dryFirePrefab = this.dryFirePrefab;
+        this.fireBulletComponent.muzzleVelocity = this.muzzleVelocity;
+        this.fireBulletComponent.hitLayers = this.shotHitLayers;
+
+        /* Grab Component */
+        this.grabComponent.grabDistance = this.grabDistance;
+        this.grabComponent.grabFlyTime = this.grabFlyTime;
+        this.grabComponent.shouldFly = this.shouldFly;
+
+        /* Outline */
+        if (this.GetComponent<RevOutline>())
+        {
+            RevOutline outline = this.GetComponent<RevOutline>();
+            outline.outlineThickness = this.outlineThickness;
+            outline.outlineColor = this.outlineColor;
+        }
+
+
+        /* Revolver Barrel */
+        this.revolvingBarrel.numberOfChambers = this.numberOfChambers;
+        this.revolvingBarrel.rotationSpeed = this.barrelRotationSpeed;
+        this.revolvingBarrel.revolverOpenClip = this.revolverCloseClip;
+        this.revolvingBarrel.revolverClickClip = this.revolverClickClip;
+        this.revolvingBarrel.revolverCloseClip = this.revolverCloseClip;
+        this.revolvingBarrel.openPosition = this.barrelOpenPosition;
+        this.revolvingBarrel.closedPosition = this.barrelClosedPosition;
+        this.revolvingBarrel.openSpeed = this.barrelOpenSpeed;
+        this.revolvingBarrel.bulletPrefab = this.shellPrefab;
+        this.revolvingBarrel.minRotationSpeedForReloading = this.minRotationSpeedForReloading;
+        this.revolvingBarrel.openDurationReloadNeeded = this.openDurationReloadNeeded;
+        this.revolvingBarrel.openDurationReloadNotNeeded = this.openDurationReloadNotNeeded;
+        this.revolvingBarrel.minStayOpenDuration = this.minStayOpenDuration;
+        this.revolvingBarrel.shellEjectionForce = this.shellEjectionForce;
     }
 }
