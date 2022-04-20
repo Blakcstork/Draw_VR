@@ -15,12 +15,12 @@ F:/2DPlatformer/Draw_VR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-4166
+6032
 Successfully changed project path to: F:/2DPlatformer/Draw_VR
 F:/2DPlatformer/Draw_VR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 641.06 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 2.53 ms.
+Refreshing native plugins compatible for Editor in 139.20 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 1.83 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path F:/2DPlatformer/Draw_VR/Assets
@@ -36,26 +36,26 @@ Initialize mono
 Mono path[0] = 'C:/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012982 seconds.
+Registered in 0.015021 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 78.90 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 86.36 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.803 seconds
+- Completed reload, in  4.214 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007254 seconds.
+Registered in 0.005961 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
@@ -65,66 +65,178 @@ RoslynAnalysisRunner has terminated.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.65.0
 Mono: successfully reloaded assembly
-- Completed reload, in  2.080 seconds
+- Completed reload, in  1.977 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
-Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
 Unloading 1836 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.0 MB.
-System memory in use after: 94.0 MB.
+System memory in use before: 94.2 MB.
+System memory in use after: 94.3 MB.
 
 Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2265.
-Total: 4.247400 ms (FindLiveObjects: 0.837000 ms CreateObjectMapping: 0.119900 ms MarkObjects: 3.042700 ms  DeleteObjects: 0.245000 ms)
+Total: 3.529300 ms (FindLiveObjects: 0.430800 ms CreateObjectMapping: 0.229500 ms MarkObjects: 2.691800 ms  DeleteObjects: 0.174800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/RevRevolver.cs
-  artifactKey: Guid(d6fd2a5ef5bb49f459b1b126dbe1ec8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RevRevolver.cs using Guid(d6fd2a5ef5bb49f459b1b126dbe1ec8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b484670d24bc650a5f015ac6899353') in 0.136103 seconds
-  Import took 0.265455 seconds .
+  path: Assets/Scripts/RevSoundEffect.cs
+  artifactKey: Guid(ddc42d7c725b6f64c9c125079af488cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RevSoundEffect.cs using Guid(ddc42d7c725b6f64c9c125079af488cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3791f0598d5619c28d4d30a540cfd8') in 0.086213 seconds
+  Import took 0.116967 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1759.797417 seconds.
+  Time since last request: 0.000345 seconds.
   path: Assets/Scripts/RevRevolver.cs
   artifactKey: Guid(d6fd2a5ef5bb49f459b1b126dbe1ec8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RevRevolver.cs using Guid(d6fd2a5ef5bb49f459b1b126dbe1ec8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7de97735f6de743950499be7aa4a5eb') in 0.003649 seconds
-  Import took 0.022445 seconds .
+Start importing Assets/Scripts/RevRevolver.cs using Guid(d6fd2a5ef5bb49f459b1b126dbe1ec8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5ce36154594f8132b166936b088279') in 0.039209 seconds
+  Import took 0.087674 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.717994 seconds.
-  path: Assets/Scripts/RevRevolver.cs
-  artifactKey: Guid(d6fd2a5ef5bb49f459b1b126dbe1ec8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RevRevolver.cs using Guid(d6fd2a5ef5bb49f459b1b126dbe1ec8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7de97735f6de743950499be7aa4a5eb') in 0.005331 seconds
-  Import took 0.013097 seconds .
+  Time since last request: 350.802460 seconds.
+  path: Assets/Low Poly Western Saloon/Components/Models/ashtray_1.fbx
+  artifactKey: Guid(21b4c76faa73f2e4391422b55c34eb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Western Saloon/Components/Models/ashtray_1.fbx using Guid(21b4c76faa73f2e4391422b55c34eb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08db0a468549eaab438ef7647c44265a') in 0.493231 seconds
+  Import took 0.512182 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.202702 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.61 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.837 seconds
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.75 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 1766 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.4 MB.
-System memory in use after: 89.5 MB.
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Low Poly Western Saloon/Components/Models/saloon_main.fbx
+  artifactKey: Guid(7b23fcb368491cf4ca8fcd85d12bb784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Western Saloon/Components/Models/saloon_main.fbx using Guid(7b23fcb368491cf4ca8fcd85d12bb784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1773c57f95b19a749d6c7d5868b0cccd') in 0.311230 seconds
+  Import took 0.323830 seconds .
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2269.
-Total: 6.354300 ms (FindLiveObjects: 0.624500 ms CreateObjectMapping: 0.206700 ms MarkObjects: 5.390600 ms  DeleteObjects: 0.129800 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/ball_soccer_01.fbx
+  artifactKey: Guid(dfd14d25717789f4796c172f0155c366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/ball_soccer_01.fbx using Guid(dfd14d25717789f4796c172f0155c366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6162dbeb078d7dde9ee82e461a7367d8') in 0.306350 seconds
+  Import took 0.374414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Oculus/LipSync/Models/FemaleHead_Morph/Female.fbx
+  artifactKey: Guid(cbaf1c32e7ec84f10a51be1b09c0ef46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Models/FemaleHead_Morph/Female.fbx using Guid(cbaf1c32e7ec84f10a51be1b09c0ef46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277a9ca3abdcfcc88316374408705590') in 1.844848 seconds
+  Import took 1.893296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Models/left_touch_controller_model_skel.fbx
+  artifactKey: Guid(1bf8f52eeebe8e149b9d6e3477251532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Models/left_touch_controller_model_skel.fbx using Guid(1bf8f52eeebe8e149b9d6e3477251532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167ff66ab4cba482cf4807fc975910e8') in 0.158509 seconds
+  Import took 0.220051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Models/WorldGeo.fbx
+  artifactKey: Guid(fb9ba08c9d86b5a409b5fe2eb4f02f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Models/WorldGeo.fbx using Guid(fb9ba08c9d86b5a409b5fe2eb4f02f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9ba1f0de242e5e23e11dabf8692b72') in 0.308219 seconds
+  Import took 0.332375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Oculus/VR/Meshes/HandTracking/OculusHand_L.fbx
+  artifactKey: Guid(442d5b4503ed83c4897ef44659446587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Meshes/HandTracking/OculusHand_L.fbx using Guid(442d5b4503ed83c4897ef44659446587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1e6f590474912c24f1fc765a638fcd') in 0.079927 seconds
+  Import took 0.165395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Models/BridgePlatform01.fbx
+  artifactKey: Guid(45fe47bcb515e419e8d449523fac0782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Models/BridgePlatform01.fbx using Guid(45fe47bcb515e419e8d449523fac0782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b8ee79c8c3b51d267aae8c6936076d') in 0.161873 seconds
+  Import took 0.166351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Low Poly Western Saloon/Components/Models/barrel_stand.fbx
+  artifactKey: Guid(246c80e1c630c4c45bb2875f6d804663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Western Saloon/Components/Models/barrel_stand.fbx using Guid(246c80e1c630c4c45bb2875f6d804663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6833a47e58b8917663647a524494cca0') in 0.026742 seconds
+  Import took 0.048553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/Oculus/VR/Meshes/Cone.obj
+  artifactKey: Guid(c28fa8d61f81fb742b1180a6d4516625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Meshes/Cone.obj using Guid(c28fa8d61f81fb742b1180a6d4516625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e8bfd2b3af5d8fe9eed345d6eae0d2') in 0.071729 seconds
+  Import took 0.106572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/ball_billiard_10.fbx
+  artifactKey: Guid(4a42e5011990d97479599bd0c3f4f7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/ball_billiard_10.fbx using Guid(4a42e5011990d97479599bd0c3f4f7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01548be55e50394b6d8791bf60cd0894') in 0.446943 seconds
+  Import took 0.476282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Models/right_touch_controller_model_skel.fbx
+  artifactKey: Guid(270ca9aaa39af4d4bb26754fdce0c971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Models/right_touch_controller_model_skel.fbx using Guid(270ca9aaa39af4d4bb26754fdce0c971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aabceb766ae6d971c9237ffa892db39') in 0.121172 seconds
+  Import took 0.126603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Models/TrainPalette.FBX
+  artifactKey: Guid(bd0bb729cb6159b4ab21c5f62cad24ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Models/TrainPalette.FBX using Guid(bd0bb729cb6159b4ab21c5f62cad24ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ad083f167eddc17fbe788ba1baecc5') in 1.232971 seconds
+  Import took 1.281012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/ball_billiard_03.fbx
+  artifactKey: Guid(9e5fdf0438d84fe498dfaf4e22a401f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/ball_billiard_03.fbx using Guid(9e5fdf0438d84fe498dfaf4e22a401f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573c2344f35e1de78c9b66dd84cc180c') in 0.081377 seconds
+  Import took 0.108711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Oculus/VR/Meshes/HandTracking/OculusHand_R.fbx
+  artifactKey: Guid(88e2e1bfe11ec6c438b0ade27eaeded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Meshes/HandTracking/OculusHand_R.fbx using Guid(88e2e1bfe11ec6c438b0ade27eaeded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0eb8080aa0166a0cb8bd0ba0b9b3f92') in 0.081849 seconds
+  Import took 0.107543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/block_wood_01.fbx
+  artifactKey: Guid(6ec0c875cb1c94e40afcad0a0161eb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/block_wood_01.fbx using Guid(6ec0c875cb1c94e40afcad0a0161eb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22871fc3c4e9d2417788cddb89610d24') in 0.112408 seconds
+  Import took 0.142551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Low Poly Western Saloon/Components/Models/ashtray_2.fbx
+  artifactKey: Guid(0e799e11bd73cb94b95c5eafe8221b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Western Saloon/Components/Models/ashtray_2.fbx using Guid(0e799e11bd73cb94b95c5eafe8221b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bcd47919faeb1cfbb030232decaa1c') in 0.024318 seconds
+  Import took 0.054319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Low Poly Western Saloon/Components/Models/ashtray_1.fbx
+  artifactKey: Guid(21b4c76faa73f2e4391422b55c34eb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Western Saloon/Components/Models/ashtray_1.fbx using Guid(21b4c76faa73f2e4391422b55c34eb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08db0a468549eaab438ef7647c44265a') in 0.022697 seconds
+  Import took 0.029829 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
